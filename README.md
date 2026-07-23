@@ -5,7 +5,9 @@ a study of Alzheimer's-disease-associated regulatory variants across multiple ce
 tissues (HEK293T, HMC3 microglia, THP1 monocyte/macrophage under stimulation, iPSC-derived
 neurons, brain, and gut).
 
-This repository accompanies the manuscript (citation below, to be updated on acceptance).
+This repository accompanies the preprint "Context-dependent regulatory variants in
+Alzheimer's disease" (Chen et al., *bioRxiv* 2025; citation below) — the citation will be
+updated to the peer-reviewed version upon journal acceptance.
 
 ## Repository layout
 
@@ -71,7 +73,10 @@ added).
 
 If you use this code, please cite:
 
-> [Manuscript citation to be added upon publication.]
+> Chen Z, Liu Y, Brown AR, Sestili H, Ramamurthy E, Xiong X, Prokopenko D, Phan BN, Gadey L,
+> Hu P, Tsai LH, Bertram L, Hide W, Tanzi RE, Kellis M, Pfenning AR. Context-dependent
+> regulatory variants in Alzheimer's disease. *bioRxiv* 2025.
+> https://doi.org/10.1101/2025.07.11.659973
 
 ## License
 
