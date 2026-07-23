@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mpra"
+version = "0.1.0"
+description = "MPRA analysis utilities"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Ziheng Chen"}]
+
+# Required to run this package (import errors otherwise)
+dependencies = [
+  "numpy>=1.23",
+  "pandas>=1.5",
+  "Biopython>=1.78",
+  "scipy>=1.9",
+  "matplotlib>=3.6",
+]
+
+[project.optional-dependencies]
+# Development tooling (formatting, lint, tests, type checking, notebooks)
+dev = [
+  "ipython",
+  "jupyter",
+  "pytest",
+  "ruff",
+  "black",
+  "mypy",
+  "pre-commit",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

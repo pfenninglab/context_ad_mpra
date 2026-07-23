@@ -1,0 +1,2 @@
+name,dna,rna,annot,out,dnaDesign,rnaDesign
+HMC3,outputs/read_counts_R1R2/HMC3_DNA_matched_barcodes_reshaped_altref_withcontrol_noSV40.csv,outputs/read_counts_R1R2/HMC3_RNA_matched_barcodes_reshaped_altref_withcontrol_noSV40.csv,annotation_barcodes/mpra3_annot_HMC3_barcodes.csv,outputs/mpranalyze_results/20260120_MAD_HMC3_noSV40.csv,~ Barcode_Allele + Test,~ 1
