@@ -60,8 +60,8 @@ activity and MAD-score analyses.
    `mpranalyze_comparative_analysis_alleleonly.R`, built on `src/mpra/mpranalyze_utils.R` and
    `src/mpra/mpranalyze_mad_utils.R`.
 7. **Downstream analysis & figures**: notebooks in `notebooks/`, run in the stage order
-   described in `notebooks/README.md` (annotation → count processing → MPRAnalyze →
-   differential annotation → plotting → ML/motif benchmarking → ATAC overlap → risk allele/GWAS).
+   described in `notebooks/README.md` (annotation → MPRAnalyze → plotting → ML/motif
+   benchmarking → risk allele/GWAS).
 
 ## Data availability
 
