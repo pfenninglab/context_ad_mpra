@@ -1,0 +1,21 @@
+# Raw sequencing data (deposited to SRA/GEO separately, see DATA.md)
+mpra_fastq/
+
+# Local git history backup from repo re-init, not part of the project
+.git.bak/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+*.egg-info/**
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# LibreOffice/OpenOffice lock files
+.~lock.*#
+
+# OS
+.DS_Store
