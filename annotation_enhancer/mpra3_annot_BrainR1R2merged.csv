@@ -1,0 +1,13 @@
+,Tissue,Delivery,Date,Animal,Sex,Test,Function,Parent,Striatum,Hippocampus,Cortex,RT_reaction
+ZC100-MPRA3-AP1134-26-Striatum,Striatum,AAV-PHP-EB,,AP1134,M,ZC100R-MPRA3-AP1134-26-Striatum,Brain,Brain,1,0,0,AP1134Striatum
+ZC101-MPRA3-AP1134-26-Hippocampus,Hippocampus,AAV-PHP-EB,,AP1134,M,ZC101R-MPRA3-AP1134-26-Hippocampus,Brain,Brain,0,1,0,AP1134Hippocampus
+ZC103-MPRA3-AP1120-26-Cortex,Cortex,AAV-PHP-EB,,AP1120,F,ZC103R-MPRA3-AP1120-26-Cortex,Brain,Brain,0,0,1,AP1120Cortex
+ZC104-MPRA3-AP1120-26-Striatum,Striatum,AAV-PHP-EB,,AP1120,F,ZC104R-MPRA3-AP1120-26-Striatum,Brain,Brain,1,0,0,AP1120Striatum
+ZC105-MPRA3-AP1120-26-Hippocampus,Hippocampus,AAV-PHP-EB,,AP1120,F,ZC105R-MPRA3-AP1120-26-Hippocampus,Brain,Brain,0,1,0,AP1120Hippocampus
+ZC107-MPRA3-AP1121-26-Cortex,Cortex,AAV-PHP-EB,,AP1121,F,ZC107R-MPRA3-AP1121-26-Cortex,Brain,Brain,0,0,1,AP1121Cortex
+ZC108-MPRA3-AP1121-26-Striatum,Striatum,AAV-PHP-EB,,AP1121,F,ZC108R-MPRA3-AP1121-26-Striatum,Brain,Brain,1,0,0,AP1121Striatum
+ZC109-MPRA3-AP1121-26-Hippocampus,Hippocampus,AAV-PHP-EB,,AP1121,F,ZC109R-MPRA3-AP1121-26-Hippocampus,Brain,Brain,0,1,0,AP1121Hippocampus
+ZC95-MPRA3-AP1133-26-Cortex,Cortex,AAV-PHP-EB,,AP1133,M,ZC95R-MPRA3-AP1133-26-Cortex,Brain,Brain,0,0,1,AP1133Cortex
+ZC96-MPRA3-AP1133-26-Striatum,Striatum,AAV-PHP-EB,,AP1133,M,ZC96R-MPRA3-AP1133-26-Striatum,Brain,Brain,1,0,0,AP1133Striatum
+ZC97-MPRA3-AP1133-26-Hippocampus,Hippocampus,AAV-PHP-EB,,AP1133,M,ZC97R-MPRA3-AP1133-26-Hippocampus,Brain,Brain,0,1,0,AP1133Hippocampus
+ZC99-MPRA3-AP1134-26-Cortex,Cortex,AAV-PHP-EB,,AP1134,M,ZC99R-MPRA3-AP1134-26-Cortex,Brain,Brain,0,0,1,AP1134Cortex

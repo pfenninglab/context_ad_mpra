@@ -1,0 +1,7 @@
+,Tissue,Delivery,Date,Animal,Test,Function,Parent,IFNB,IFNG,LPSIFNG,Naive_Macrophage,THP1_Monocytes
+Naive_THP1mono_ZC111_R,THP1_Monocyte,Nucleofector,,Monocyte,Naive_THP1mono_ZC111_R,Immune,THP1_Monocyte,0,0,0,0,1
+Naive_THP1mono_ZC112_R,THP1_Monocyte,Nucleofector,,Monocyte,Naive_THP1mono_ZC112_R,Immune,THP1_Monocyte,0,0,0,0,1
+Naive_THP1mono_ZC113_R,THP1_Monocyte,Nucleofector,,Monocyte,Naive_THP1mono_ZC113_R,Immune,THP1_Monocyte,0,0,0,0,1
+Naive_THP1mono_ZC37_R,THP1_Monocyte,Nucleofector,,Monocyte,Naive_THP1mono_ZC37_R,Immune,THP1_Monocyte,0,0,0,0,1
+Naive_THP1mono_ZC60_R,THP1_Monocyte,Nucleofector,,Monocyte,Naive_THP1mono_ZC60_R,Immune,THP1_Monocyte,0,0,0,0,1
+Naive_THP1mono_ZC90_R,THP1_Monocyte,Nucleofector,,Monocyte,Naive_THP1mono_ZC90_R,Immune,THP1_Monocyte,0,0,0,0,1

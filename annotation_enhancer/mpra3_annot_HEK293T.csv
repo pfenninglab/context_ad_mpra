@@ -1,0 +1,6 @@
+,Tissue,Delivery,Date,Animal,Test,Function,Parent,Purification
+Naive_HEK293T_ZC65_R,HEK293T,Fugene6,,HEK293T,Naive_HEK293T_ZC65_R,Control_cell,HEK293T,Column
+Naive_HEK293T_ZC66_R,HEK293T,Fugene6,,HEK293T,Naive_HEK293T_ZC66_R,Control_cell,HEK293T,Column
+Naive_HEK293T_ZC71_R,HEK293T,Fugene6,,HEK293T,Naive_HEK293T_ZC71_R,Control_cell,HEK293T,Column
+Naive_HEK293T_ZC76_R,HEK293T,Fugene6,,HEK293T,Naive_HEK293T_ZC76_R,Control_cell,HEK293T,Column
+Naive_HEK293T_ZC81_R,HEK293T,Fugene6,,HEK293T,Naive_HEK293T_ZC81_R,Control_cell,HEK293T,Column
