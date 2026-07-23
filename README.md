@@ -18,8 +18,6 @@ notebooks/           Downstream analysis notebooks, organized by stage (see note
 annotation_barcodes/ Per-cell-type barcode-to-element annotation tables
 annotation_enhancer/ Enhancer annotation tables
 indexing/            REF/ALT lookup tables, RNA/DNA barcode match tables, negative controls
-public_data/         Public comparison datasets (Bond et al., GTEx/eQTL fine-mapping,
-                     Cooper et al. Science supplementary data)
 ```
 
 See [`DATA.md`](DATA.md) for exactly what is and isn't tracked in this repository, and why

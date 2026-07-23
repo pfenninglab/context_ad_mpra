@@ -10,11 +10,6 @@ section explains what is and isn't included, and how to regenerate what's exclud
 | `annotation_barcodes/` | Per-cell-type barcode annotation tables | 11 MB |
 | `annotation_enhancer/` | Enhancer annotation tables | <1 MB |
 | `indexing/` | REF/ALT lookup tables, RNA/DNA barcode match tables, negative control list | 26 MB |
-| `public_data/` | Public comparison datasets: Bond et al. MPRA results, GTEx/eQTL fine-mapping (`syn2580853`, `syn30863700`), and Cooper et al. *Science* supplementary data (`cooper_et_al/`) | 102 MB |
-
-`public_data/syn2580853_finemapped_sign_eQTLOnly.csv` is ~91 MB — under GitHub's 100 MB
-hard limit but close to its 50 MB soft-warning threshold; if this repo grows further,
-consider moving it to Git LFS or an external mirror.
 
 ## Excluded from this repository
 
@@ -23,6 +18,7 @@ consider moving it to Git LFS or an external mirror.
 | `mpra_fastq/` — raw paired-end sequencing reads (~35 GB) | Too large for git; raw sequencing data belongs in a dedicated repository | Will be deposited to SRA/GEO — accession number **TBD** |
 | `outputs/` — result tables (allele effects, MPRAnalyze MAD/differential results, QC summaries, matched read counts) | Regenerable output, not source data; kept out of git to keep the repo lean | Regenerate via `scripts/` (fastq → count tables) followed by the MPRAnalyze R scripts, and/or the relevant notebooks in `notebooks/01_mpranalyze/`. Planned for deposit as a Zenodo record — DOI **TBD** |
 | Other large intermediate result tables from the original working analysis (~2.7 GB: `allele_differences_*`, `enhancer_activities_*`, full-resolution `read_counts_R1R2`/`read_counts_R2only`, motif-scanning outputs, etc.) | Same as above | Same as above — planned for the same Zenodo record, DOI **TBD** |
+| `public_data/` — external comparison datasets (Bond et al. MPRA results, GTEx/eQTL fine-mapping, Cooper et al. *Science* supplementary data) | Not this project's own data; removed to keep the repo scoped to this project's code and data | Available from their original public sources (cited in the relevant notebooks/manuscript) rather than mirrored here |
 | `for_collaborators/` (per-collaborator data slices) | Bespoke data shared privately with named collaborators, not intended for public release | N/A — not part of this repository |
 
 ## Regenerating an excluded intermediate

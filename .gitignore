@@ -5,6 +5,9 @@ mpra_fastq/
 # Zenodo separately, see DATA.md)
 outputs/
 
+# External public comparison datasets, not part of this project's own data
+public_data/
+
 # Local git history backup from repo re-init, not part of the project
 .git.bak/
 
