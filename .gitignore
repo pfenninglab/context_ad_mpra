@@ -1,6 +1,10 @@
 # Raw sequencing data (deposited to SRA/GEO separately, see DATA.md)
 mpra_fastq/
 
+# Result tables (regenerable from scripts/ + notebooks/, deposited to
+# Zenodo separately, see DATA.md)
+outputs/
+
 # Local git history backup from repo re-init, not part of the project
 .git.bak/
 
