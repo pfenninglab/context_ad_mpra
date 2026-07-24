@@ -20,6 +20,9 @@ notebooks/           Downstream analysis notebooks, organized by stage (see note
 annotation_barcodes/ Per-cell-type barcode-to-element annotation tables
 annotation_enhancer/ Enhancer annotation tables
 indexing/            REF/ALT lookup tables, RNA/DNA barcode match tables, negative controls
+machinelearning_prepost_processing/
+                     Sequence-based model data prep, prediction, and DeepSHAP/interpretation
+                     notebooks for MPRA-tested elements, plus per-condition training configs
 ```
 
 See [`DATA.md`](DATA.md) for exactly what is and isn't tracked in this repository, and why
@@ -60,7 +63,8 @@ activity and MAD-score analyses.
    `src/mpra/mpranalyze_mad_utils.R`.
 7. **Downstream analysis & figures**: notebooks in `notebooks/`, run in the stage order
    described in `notebooks/README.md` (annotation → MPRAnalyze → plotting → ML/motif
-   benchmarking → risk allele/GWAS).
+   benchmarking → risk allele/GWAS). The ML/motif benchmarking stage consumes sequence-model
+   predictions and DeepSHAP attributions produced by `machinelearning_prepost_processing/`.
 
 ## Data availability
 
